@@ -1,0 +1,98 @@
+body{
+  background-color: #C2C5BB;
+}
+
+label {
+  display: block;
+  margin-top: 10px;
+}
+
+.card-container.card {
+  max-width: 350px !important;
+  padding: 40px 40px;
+}
+
+.card {
+  background-color: #f7f7f7;
+  padding: 20px 25px 30px;
+  margin: 0 auto 25px;
+  margin-top: 50px;
+  -moz-border-radius: 2px;
+  -webkit-border-radius: 2px;
+  border-radius: 2px;
+  -moz-box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+  -webkit-box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+  box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+}
+
+.profile-img-card {
+  width: 96px;
+  height: 96px;
+  margin: 0 auto 10px;
+  display: block;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
+}
+
+.jumbotron{
+  background-color: #499F68;
+  color: white;
+  text-align: center;
+}
+
+.navbarcolor{
+  background-color: #157A6E;
+  color: #FFF;
+}
+
+hr{
+  background-color: #C2C5BB;
+}
+
+.navbarcolor a{
+  color: #FFF;
+}
+
+.navbarcolor a:hover{
+  text-decoration-line: underline;
+}
+
+.btncolor{
+  background-color: #B4654A;
+  color: #FFF;
+}
+
+.container{
+  padding: 1%;
+}
+
+.productListContainer{
+  display: grid;
+  grid-template-columns: repeat(auto-fill,15rem);
+  column-gap: 2rem;
+  row-gap: 2rem;
+  justify-content: space-evenly;
+  width: inherit;
+}
+
+.productCard{
+  width: 15rem;
+  height: 19rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.productListHeader{
+  padding: 2rem;
+  background-color: #499F68;
+  margin-bottom: 2rem;
+  font-size: 2rem;
+}
+
+.listContainer{
+  resize: horizontal;
+  overflow: auto;
+}
